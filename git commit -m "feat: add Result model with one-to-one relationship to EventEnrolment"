@@ -1,0 +1,2 @@
+Results store finish time and position — but only for participants who actually finished. The 1-to-1 relationship with 
+EventEnrolment means each enrolment can have at most one result, which correctly models reality (you can't have two finish times for the same run).
