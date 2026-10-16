@@ -1,0 +1,2 @@
+Adds the "Authorize" padlock in Swagger UI. Without this, you can't test role-restricted endpoints from the Swagger page — you'd have to use Postman. 
+This commit makes your API demonstrable in the browser.
