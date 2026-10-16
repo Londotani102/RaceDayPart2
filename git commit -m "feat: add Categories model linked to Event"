@@ -1,0 +1,2 @@
+Categories represent the age/distance segments within an event. The FK to Event means each category belongs to exactly
+one event — matching the POE requirement: "Organisers must be able to define age or distancecategories for each event
