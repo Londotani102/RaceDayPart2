@@ -1,0 +1,2 @@
+Declares all external dependencies in one commit. If a marker needs to know which version of EF Core you used, this commit is the single 
+source of truth. It also isolates "configuration changes" from "logic changes" in your history.
