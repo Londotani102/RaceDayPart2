@@ -1,0 +1,2 @@
+GET /api/profile and PUT /api/profile — the POE explicitly requires both roles to view and update their own profile.
+The controller reads the user ID from the JWT,not the request body, so users can't spoof other users' profiles.
