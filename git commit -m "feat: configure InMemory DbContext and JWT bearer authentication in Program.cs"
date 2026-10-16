@@ -1,0 +1,4 @@
+This single commit wires up two critical services:
+
+AddDbContext<RaceDayDbContext> with the In-Memory provider (required for Part 2).
+AddAuthentication(JwtBearerDefaults) with token validation parameters.
