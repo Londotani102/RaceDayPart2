@@ -1,0 +1,8 @@
+This is the EF Core "bridge" between your C# classes and the database. The OnModelCreating method adds unique
+indexes that enforce business rules at the database level:
+
+Unique Email per Participant/Organiser → no duplicate accounts.
+
+Unique (EventId, ParticipantId) on EventEnrolment → participants can't enrol twice in the same event.
+
+1-to-1 EventEnrolment ↔ Result → matches your ERD cardinality.
