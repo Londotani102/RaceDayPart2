@@ -1,0 +1,5 @@
+This is the first controller that enforces role separation:
+
+GET endpoints → [Authorize] (any logged-in user)
+
+POST, PUT, DELETE → [Authorize(Roles = "Organiser")]
