@@ -1,0 +1,4 @@
+Handles POST /api/auth/login. On success, it returns a signed JWT with three claims: 
+NameIdentifier (user ID), Name (email), Role (Organiser or Participant). 
+Every subsequent [Authorize] check depends on this role claim.
+
