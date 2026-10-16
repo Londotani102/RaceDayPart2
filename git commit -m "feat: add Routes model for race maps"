@@ -1,0 +1,2 @@
+Routes store geographic data (start, end, distance, map URL) independently of events so the same route can be reused across
+multiple events. This separation is reflected in your ERD.
