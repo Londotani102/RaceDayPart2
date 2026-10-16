@@ -1,0 +1,2 @@
+This is the many-to-many bridge. It records who enrolled in what event, in which category, and when. Without it, you couldn't
+answer "Who is running the Cape Town Marathon?" which is a core POE functional requirement.
