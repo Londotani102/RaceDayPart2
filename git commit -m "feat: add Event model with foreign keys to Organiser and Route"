@@ -1,0 +1,2 @@
+Events are the central entity in RaceDay. This commit introduces the two FKs — OrganiserId and RouteId — that your ERD 
+specifies. The FK attributes ([ForeignKey]) tell EF Core to generate actual database relationships, not just integer columns.
