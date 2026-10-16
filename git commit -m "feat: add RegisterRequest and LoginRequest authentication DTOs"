@@ -1,0 +1,2 @@
+These small classes define the shape of authentication requests. Using DTOs instead of the raw Participant/Organiser 
+entities prevents accidental exposure of fields like PasswordHash in Swagger.
