@@ -1,0 +1,2 @@
+Same role pattern as Events — read for everyone, write for Organisers only. Categories are per-event and per-distance, 
+so the controller validates that the EventId passed in the body actually exists before allowing creation.
